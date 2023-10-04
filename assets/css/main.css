@@ -152,7 +152,7 @@ main {
     background: url(../images/Layer-0.png) repeat-x 0% 100%;
     background-size: contain;
     top: 0;
-    bottom: -150px;
+    bottom: -100px;
     position: absolute;
     width: 105%;
 }
@@ -267,15 +267,5 @@ main {
 
     100% {
         transform: translateY(1.5%);
-    }
-}
-
-@keyframes Show {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
     }
 }
